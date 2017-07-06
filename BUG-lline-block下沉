@@ -1,0 +1,4 @@
+This happens because the inline-block element has height equal to its parent and overflow: hidden causes its bottom edge to be aligned on the text baseline of the parent. As a result the space that is available for descenders on the text is essentially doubled for the <span> 
+You can fix this by also giving it vertical-align: bottom.
+
+overflow:hidden changes the baseline for inline-block elements, and since the default value for vertical-align is baseline the element moves vertically. See the CSS spec (scroll to the bottom).
