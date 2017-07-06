@@ -1,0 +1,14 @@
+background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(40%, rgba(0, 0, 0, 0.2)), color-stop(60%, rgba(0, 0, 0, 0.2)), color-stop(80%, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.8)));
+background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
+background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
+background: linear-gradient(top bottom, transparent 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#00000000, endColorstr=#cc000000);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#00000000, endColorstr=#cc000000)";
+
+
+startColorStr:可选项。字符串(String)。设置或检索色彩渐变的开始颜色和透明度。
+　　其格式为 #AARRGGBB 。 AA 、 RR 、 GG 、 BB 为十六进制正整数。取值范围为 00 – FF 。 RR 指定红色值， GG 指定绿色值， BB 指定蓝色值，参阅 #RRGGBB 颜色单位。 AA 指定透明度。 00 是完全透明。 FF 是完全不透明。超出取值范围的值将被恢复为默认值。
+　　取值范围为 #FF000000 – #FFFFFFFF 。默认值为 #FF0000FF 。不透明蓝色。
+EndColorStr:可选项。字符串(String)。设置或检索色彩渐变的结束颜色和透明度。参阅 startColorStr 属性。默认值为 #FF000000 。不透明黑色。
+十六进制FF对应十进制值是255，透明读为0.8，则为255*0.8 = 204.，对应的十六进制为CC 
